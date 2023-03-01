@@ -16,7 +16,7 @@ if uploaded_file:
     df2 = pd.read_csv(uploaded_file)
     df2 = df2.replace('Nicht beantwortbar', np.NaN)
     scale = ['Trifft nicht zu', 'Trifft eher nicht zu', 'Teils/Teils', 'Trifft eher zu', 'Trifft voll und ganz zu']
-    data_1 = df2[['1.1) Aufbau und Gliederung der Veranstaltung waren klar. ',
+    data_1 = df2[['1.1) Aufbau und Gliederung der Veranstaltung waren klar.',
                   '1.2) Die Lehrveranstaltung hat mir viele neue inhaltliche Erkenntnisse gebracht.',
                   '1.3) Die Leistungsanforderungen wurden transparent dargelegt.',
                   '1.4) Die zu Beginn der Veranstaltung beschriebenen Lernziele wurden bisher erfüllt.',
